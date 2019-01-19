@@ -62,9 +62,8 @@ class DataModule {
 
     @Provides
     @Singleton
-    fun provideProductInStoreRepository(storeApi: StoreApi,
-                                        productMapper: ProductToShoppingCartEntityMapper): ProductsInStoreRepository {
-        return ProductsInStoreRepositoryImp(storeApi, productMapper)
+    fun provideProductInStoreRepository(productMapper: ProductToShoppingCartEntityMapper): ProductsInStoreRepository {
+        return ProductsInStoreRepositoryImp(productMapper)
     }
 
     @Provides
