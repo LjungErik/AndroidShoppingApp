@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f43128</color>
+    <color name="colorPrimaryDark">#da1a11</color>
+    <color name="colorAccent">#ff324e</color>
+    <color name="colorActionText">#ffffff</color>
+
+    <color name="colorListTextPrimary">#b4000000</color>
+    <color name="colorListTextSecondary">#64000000</color>
+
+    <color name="colorListBg">#ffffff</color>
+    <color name="colorListThumbnail">#60000000</color>
+
+    <color name="colorSelectedList">#4ad7d7d7</color>
+    <color name="colorUnselectedList">#FFFFFFFF</color>
+    <color name="colorActionModeStatusBar">#585858</color>
+
+    <color name="colorBottomControlsBg">#e9e9e9</color>
+    <color name="colorBottomControlsActive">#a1a1a1</color>
+
+    <color name="bg_action_mode">#757575</color>
+
+    <color name="colorConfirmCheck">#000000</color>
+    <color name="colorTotalBox">#616161</color>
+
+    <color name="colorBlueButton">#0085c0</color>
+    <color name="colorBlueButtonPressed">#00b1ff</color>
+    <color name="colorButtonDisabled">#797979</color>
+
+    <color name="colorListButton">#00c1b9</color>
+    <color name="colorListButtonPressed">#00fff4</color>
+
+    <color name="colorAddItem">#99cc00</color>
+    <color name="colorRemoveItem">#dc0606</color>
+    <color name="colorScanFail">#da0a18</color>
+</resources>

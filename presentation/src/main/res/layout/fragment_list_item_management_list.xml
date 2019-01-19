@@ -1,0 +1,27 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thetestcompany.presentation.listitemmanagement.ListItemManagementListFragment">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/list_item_list_edit_btn"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_edit"
+        app:backgroundTint="@color/colorPrimary"
+        app:layout_anchor="@+id/list_item_list_Rv"
+        app:layout_anchorGravity="right|bottom" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_item_list_Rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</android.support.design.widget.CoordinatorLayout>

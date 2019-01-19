@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorListBg">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/item_save_btn"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_done"
+        android:tint="@color/colorConfirmCheck"
+        app:backgroundTint="@color/colorListBg"
+        app:layout_anchor="@+id/relativeLayout"
+        app:layout_anchorGravity="right|bottom"
+        android:focusable="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/colorPrimary">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/item_name_ev"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:hint="Namn"
+            android:inputType="text"
+            android:textColor="@color/colorActionText"
+            android:textColorHint="@color/colorActionText"
+            android:backgroundTint="@color/colorActionText"
+            android:textCursorDrawable="@null"
+            android:textSize="32dp" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/item_quantity_ev"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/item_name_ev"
+            android:layout_below="@+id/item_name_ev"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:hint="Mängd"
+            android:inputType="numberDecimal"
+            android:textColor="@color/colorActionText"
+            android:textColorHint="@color/colorActionText"
+            android:backgroundTint="@color/colorActionText"
+            android:textCursorDrawable="@null"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/item_unit_sp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/item_quantity_ev"
+            android:layout_alignEnd="@id/item_name_ev"
+            android:layout_alignTop="@id/item_quantity_ev" />
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

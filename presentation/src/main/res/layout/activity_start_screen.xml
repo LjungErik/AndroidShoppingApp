@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.thetestcompany.presentation.StartScreenActivity">
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp"
+        android:text="@string/app_main_title"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/shopBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listsBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/blue_button"
+        android:text="Handla"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/colorActionText"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/listsBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/shopBtn"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/list_button"
+        android:text="Inköpslistor"
+        android:textAllCaps="false"
+        android:textColor="@color/colorActionText"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/receiptIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/ic_receipt" />
+
+</RelativeLayout>

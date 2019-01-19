@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ShoppingApp</string>
+    <string name="app_main_title">Handla</string>
+    <string name="app_lists_title">Inköpslistor</string>
+    <string name="action_delete">Delete</string>
+    <string name="camera_unavailable_text">Camera unavailable</string>
+    <string name="shopping_no_permission_text">To use this feature you need to allow the camera permissions</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="units">
+        <item>ml</item>
+        <item>cl</item>
+        <item>dl</item>
+        <item>l</item>
+        <item>g</item>
+        <item>hg</item>
+        <item>kg</item>
+        <item>st</item>
+        <item>förp</item>
+    </string-array>
+
+    <string name="tab_cart_title">Cart</string>
+    <string name="tab_tobuy_title">To Buy</string>
+    <string name="store_base_url">api-url-goes-here</string>
+    <string name="abort_info">Ni håller på att avsluta eran nuvarande shoppingrunda, vill ni verkligen det?</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/entries_list_entry_fg"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:background="@color/colorListBg">
+
+        <CheckBox
+            android:id="@+id/list_select_check"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="16dp"
+            android:alpha="1"
+            android:button="@drawable/item_circle_checkbox"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/list_select_check"
+            android:text="Name"
+            android:textColor="@color/colorListTextPrimary"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/list_name"
+            android:layout_marginEnd="16dp"
+            android:text="Date"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
